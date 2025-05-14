@@ -1,12 +1,10 @@
 estudiantes = []
-
 print("Ingresa los datos de los estudiantes:")
-
 while True:
+    "Recuerda colocar el nombre del estudiante y sus notas. Para terminar, escribe 'salir'."
     nombre = input("Nombre del estudiante (o escribe 'salir' para terminar): ")
     if nombre.lower() == "salir":
         break
-
     notas = []
     for i in range(3):
         while True:
